@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="594mm" height="420mm" viewBox="0 0 594 420" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<pattern id="steel" patternUnits="userSpaceOnUse" width="0.9" height="0.9" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="0.9" stroke="#1a1a1a" stroke-width="0.07"/></pattern>
+<pattern id="steelx" patternUnits="userSpaceOnUse" width="0.9" height="0.9" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="0.9" stroke="#1a1a1a" stroke-width="0.08"/><line x1="0" y1="0" x2="0.9" y2="0" stroke="#1a1a1a" stroke-width="0.08"/></pattern>
+<pattern id="concrete" patternUnits="userSpaceOnUse" width="3.2" height="3.2" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3.2" stroke="#333" stroke-width="0.12"/><circle cx="1.6" cy="1.0" r="0.18" fill="#555"/><circle cx="0.6" cy="2.4" r="0.13" fill="#555"/></pattern>
+<pattern id="earth" patternUnits="userSpaceOnUse" width="4.5" height="4.5" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="4.5" stroke="#555" stroke-width="0.1"/></pattern>
+<pattern id="fabric" patternUnits="userSpaceOnUse" width="0.7" height="0.7"><line x1="0" y1="0" x2="0" y2="0.7" stroke="#444" stroke-width="0.05"/></pattern>
+<marker id="arr" markerWidth="7" markerHeight="6" refX="6" refY="2" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L6,2 L0,4 Z" fill="#000"/></marker>
+<marker id="kdot" markerWidth="2.4" markerHeight="2.4" refX="1.2" refY="1.2" orient="auto" markerUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r="0.7" fill="#000"/></marker>
+</defs>
+<rect x="6" y="6" width="582" height="408" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<rect x="10" y="10" width="574" height="400" fill="none" stroke="#000" stroke-width="0.8"/>
+<rect x="40" y="335.00" width="290" height="45" fill="url(#earth)"/>
+<rect x="160.00" y="335.00" width="50" height="40" fill="#fff"/>
+<line x1="40.00" y1="335.00" x2="330.00" y2="335.00" stroke="#000" stroke-width="0.8" stroke-linecap="butt"/>
+<rect x="160.00" y="335.00" width="50.00" height="40.00" fill="url(#concrete)" stroke="#000" stroke-width="0.5"/>
+<rect x="173.00" y="335.00" width="24.00" height="2.00" fill="url(#steelx)" stroke="#000" stroke-width="0.4"/>
+<rect x="180.50" y="335.00" width="9.00" height="15.00" fill="url(#steel)" stroke="#000" stroke-width="0.55"/>
+<rect x="180.00" y="285.00" width="10.00" height="50.00" fill="url(#steel)" stroke="#000" stroke-width="0.6"/>
+<rect x="183.00" y="200.00" width="4.00" height="85.00" fill="url(#steel)" stroke="#000" stroke-width="0.55"/>
+<rect x="184.00" y="115.00" width="2.00" height="85.00" fill="url(#steel)" stroke="#000" stroke-width="0.5"/>
+<rect x="181.00" y="313.50" width="8.00" height="3.00" fill="url(#steelx)" stroke="#000" stroke-width="0.5"/>
+<line x1="183.00" y1="293.00" x2="183.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-dasharray="1.0,0.7" stroke-linecap="butt"/>
+<line x1="187.00" y1="293.00" x2="187.00" y2="285.00" stroke="#000" stroke-width="0.18" stroke-dasharray="1.0,0.7" stroke-linecap="butt"/>
+<line x1="183.00" y1="293.00" x2="187.00" y2="293.00" stroke="#000" stroke-width="0.18" stroke-dasharray="1.0,0.7" stroke-linecap="butt"/>
+<line x1="184.00" y1="208.00" x2="184.00" y2="200.00" stroke="#000" stroke-width="0.18" stroke-dasharray="1.0,0.7" stroke-linecap="butt"/>
+<line x1="186.00" y1="208.00" x2="186.00" y2="200.00" stroke="#000" stroke-width="0.18" stroke-dasharray="1.0,0.7" stroke-linecap="butt"/>
+<line x1="184.00" y1="208.00" x2="186.00" y2="208.00" stroke="#000" stroke-width="0.18" stroke-dasharray="1.0,0.7" stroke-linecap="butt"/>
+<line x1="185.00" y1="353.00" x2="185.00" y2="103.00" stroke="#000" stroke-width="0.12" stroke-dasharray="4,1.2,0.7,1.2" stroke-linecap="butt"/>
+<line x1="189.43" y1="315.57" x2="261.78" y2="262.07" stroke="#000" stroke-width="0.35" stroke-linecap="butt"/>
+<line x1="188.57" y1="314.43" x2="260.92" y2="260.93" stroke="#000" stroke-width="0.35" stroke-linecap="butt"/>
+<line x1="261.78" y1="262.07" x2="260.92" y2="260.93" stroke="#000" stroke-width="0.35" stroke-linecap="butt"/>
+<line x1="181.43" y1="314.43" x2="109.08" y2="260.93" stroke="#000" stroke-width="0.35" stroke-linecap="butt"/>
+<line x1="180.57" y1="315.57" x2="108.22" y2="262.07" stroke="#000" stroke-width="0.35" stroke-linecap="butt"/>
+<line x1="109.08" y1="260.93" x2="108.22" y2="262.07" stroke="#000" stroke-width="0.35" stroke-linecap="butt"/>
+<path d="M108.65,261.50 Q185.00,281.30 261.35,261.50 L261.35,260.10 Q185.00,279.90 108.65,260.10 Z" fill="url(#fabric)" stroke="#000" stroke-width="0.35" stroke-linejoin="round"/>
+<path d="M158.00,157.30 Q185.00,163.78 212.00,157.30 L212.00,156.10 Q185.00,162.58 158.00,156.10 Z" fill="url(#fabric)" stroke="#000" stroke-width="0.35" stroke-linejoin="round"/>
+<line x1="185.00" y1="115.00" x2="185.00" y2="107.00" stroke="#000" stroke-width="0.5" stroke-linecap="butt"/>
+<path d="M185.00,107.00 A5,5 0 0 1 195.00,107.00" fill="none" stroke="#000" stroke-width="0.5"/>
+<path d="M185.00,107.00 A5,5 0 0 0 175.00,107.00" fill="none" stroke="#000" stroke-width="0.5"/>
+<line x1="185.00" y1="112.00" x2="212.00" y2="157.30" stroke="#000" stroke-width="0.25" stroke-linecap="butt"/>
+<line x1="185.00" y1="112.00" x2="158.00" y2="157.30" stroke="#000" stroke-width="0.25" stroke-linecap="butt"/>
+<line x1="185.00" y1="112.00" x2="261.35" y2="261.50" stroke="#000" stroke-width="0.25" stroke-linecap="butt"/>
+<line x1="185.00" y1="112.00" x2="108.65" y2="261.50" stroke="#000" stroke-width="0.25" stroke-linecap="butt"/>
+<line x1="300.00" y1="102.00" x2="300.00" y2="350.00" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<line x1="195.00" y1="102.00" x2="300.00" y2="102.00" stroke="#000" stroke-width="0.1" stroke-linecap="butt"/>
+<line x1="298.60" y1="103.40" x2="301.40" y2="100.60" stroke="#000" stroke-width="0.3" stroke-linecap="butt"/>
+<line x1="186.00" y1="115.00" x2="300.00" y2="115.00" stroke="#000" stroke-width="0.1" stroke-linecap="butt"/>
+<line x1="298.60" y1="116.40" x2="301.40" y2="113.60" stroke="#000" stroke-width="0.3" stroke-linecap="butt"/>
+<line x1="212.00" y1="157.30" x2="300.00" y2="157.30" stroke="#000" stroke-width="0.1" stroke-linecap="butt"/>
+<line x1="298.60" y1="158.70" x2="301.40" y2="155.90" stroke="#000" stroke-width="0.3" stroke-linecap="butt"/>
+<line x1="261.35" y1="261.50" x2="300.00" y2="261.50" stroke="#000" stroke-width="0.1" stroke-linecap="butt"/>
+<line x1="298.60" y1="262.90" x2="301.40" y2="260.10" stroke="#000" stroke-width="0.3" stroke-linecap="butt"/>
+<line x1="190.00" y1="285.00" x2="300.00" y2="285.00" stroke="#000" stroke-width="0.1" stroke-linecap="butt"/>
+<line x1="298.60" y1="286.40" x2="301.40" y2="283.60" stroke="#000" stroke-width="0.3" stroke-linecap="butt"/>
+<line x1="190.00" y1="335.00" x2="300.00" y2="335.00" stroke="#000" stroke-width="0.1" stroke-linecap="butt"/>
+<line x1="298.60" y1="336.40" x2="301.40" y2="333.60" stroke="#000" stroke-width="0.3" stroke-linecap="butt"/>
+<line x1="189.50" y1="350.00" x2="300.00" y2="350.00" stroke="#000" stroke-width="0.1" stroke-linecap="butt"/>
+<line x1="298.60" y1="351.40" x2="301.40" y2="348.60" stroke="#000" stroke-width="0.3" stroke-linecap="butt"/>
+<text x="304.50" y="108.50" font-size="3" text-anchor="middle" transform="rotate(-90 304.50 108.50)">130</text>
+<text x="304.50" y="136.15" font-size="3" text-anchor="middle" transform="rotate(-90 304.50 136.15)">423</text>
+<text x="304.50" y="209.40" font-size="3" text-anchor="middle" transform="rotate(-90 304.50 209.40)">1042</text>
+<text x="304.50" y="273.25" font-size="3" text-anchor="middle" transform="rotate(-90 304.50 273.25)">235</text>
+<text x="304.50" y="310.00" font-size="3" text-anchor="middle" transform="rotate(-90 304.50 310.00)">500</text>
+<text x="304.50" y="342.50" font-size="3" text-anchor="middle" transform="rotate(-90 304.50 342.50)">150</text>
+<text x="282" y="100.80" font-size="3" text-anchor="end">+2.330</text>
+<path d="M281,102.00 l2.4,-1.4 l0,2.8 Z" fill="#000"/>
+<text x="282" y="113.80" font-size="3" text-anchor="end">+2.200</text>
+<path d="M281,115.00 l2.4,-1.4 l0,2.8 Z" fill="#000"/>
+<text x="282" y="156.10" font-size="3" text-anchor="end">+1.777</text>
+<path d="M281,157.30 l2.4,-1.4 l0,2.8 Z" fill="#000"/>
+<text x="282" y="260.30" font-size="3" text-anchor="end">+0.735</text>
+<path d="M281,261.50 l2.4,-1.4 l0,2.8 Z" fill="#000"/>
+<text x="282" y="283.80" font-size="3" text-anchor="end">+0.500</text>
+<path d="M281,285.00 l2.4,-1.4 l0,2.8 Z" fill="#000"/>
+<text x="282" y="333.80" font-size="3" text-anchor="end">&#177;0.000 FFL</text>
+<path d="M281,335.00 l2.4,-1.4 l0,2.8 Z" fill="#000"/>
+<text x="282" y="348.80" font-size="3" text-anchor="end">&#8722;0.150</text>
+<path d="M281,350.00 l2.4,-1.4 l0,2.8 Z" fill="#000"/>
+<line x1="108.65" y1="261.50" x2="108.65" y2="241.50" stroke="#000" stroke-width="0.1" stroke-linecap="butt"/>
+<line x1="261.35" y1="261.50" x2="261.35" y2="241.50" stroke="#000" stroke-width="0.1" stroke-linecap="butt"/>
+<line x1="108.65" y1="243.50" x2="169.00" y2="243.50" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<line x1="201.00" y1="243.50" x2="261.35" y2="243.50" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<path d="M108.65,243.50 l6,-1.4 l0,2.8 Z" fill="#000"/>
+<path d="M261.35,243.50 l-6,-1.4 l0,2.8 Z" fill="#000"/>
+<text x="185.00" y="244.60" font-size="3" text-anchor="middle" fill="#000" paint-order="stroke" stroke="#fff" stroke-width="1.1">1527</text>
+<line x1="158.00" y1="157.30" x2="158.00" y2="143.30" stroke="#000" stroke-width="0.1" stroke-linecap="butt"/>
+<line x1="212.00" y1="157.30" x2="212.00" y2="143.30" stroke="#000" stroke-width="0.1" stroke-linecap="butt"/>
+<line x1="158.00" y1="145.30" x2="174.00" y2="145.30" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<line x1="196.00" y1="145.30" x2="212.00" y2="145.30" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<path d="M158.00,145.30 l6,-1.4 l0,2.8 Z" fill="#000"/>
+<path d="M212.00,145.30 l-6,-1.4 l0,2.8 Z" fill="#000"/>
+<text x="185.00" y="146.40" font-size="3" text-anchor="middle" fill="#000" paint-order="stroke" stroke="#fff" stroke-width="1.1">540</text>
+<line x1="238.00" y1="98.00" x2="192.00" y2="106.00" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<circle cx="192.00" cy="106.00" r="0.7" fill="#000"/>
+<circle cx="238.00" cy="98.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="238.00" y="99.05" font-size="3.3" font-weight="bold" text-anchor="middle">A</text>
+<line x1="243.00" y1="135.00" x2="186.00" y2="155.00" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<circle cx="186.00" cy="155.00" r="0.7" fill="#000"/>
+<circle cx="243.00" cy="135.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="243.00" y="136.05" font-size="3.3" font-weight="bold" text-anchor="middle">B</text>
+<line x1="250.00" y1="160.00" x2="212.00" y2="157.30" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<circle cx="212.00" cy="157.30" r="0.7" fill="#000"/>
+<circle cx="250.00" cy="160.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="250.00" y="161.05" font-size="3.3" font-weight="bold" text-anchor="middle">F</text>
+<line x1="112.00" y1="150.00" x2="150.60" y2="179.30" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<circle cx="150.60" cy="179.30" r="0.7" fill="#000"/>
+<circle cx="112.00" cy="150.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="112.00" y="151.05" font-size="3.3" font-weight="bold" text-anchor="middle">E</text>
+<line x1="132.00" y1="225.00" x2="183.00" y2="235.00" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<circle cx="183.00" cy="235.00" r="0.7" fill="#000"/>
+<circle cx="132.00" cy="225.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="132.00" y="226.05" font-size="3.3" font-weight="bold" text-anchor="middle">C</text>
+<line x1="258.00" y1="250.00" x2="225.18" y2="288.25" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<circle cx="225.18" cy="288.25" r="0.7" fill="#000"/>
+<circle cx="258.00" cy="250.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="258.00" y="251.05" font-size="3.3" font-weight="bold" text-anchor="middle">G</text>
+<line x1="250.00" y1="283.00" x2="205.00" y2="265.00" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<circle cx="205.00" cy="265.00" r="0.7" fill="#000"/>
+<circle cx="250.00" cy="283.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="250.00" y="284.05" font-size="3.3" font-weight="bold" text-anchor="middle">H</text>
+<line x1="146.00" y1="300.00" x2="180.00" y2="305.00" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<circle cx="180.00" cy="305.00" r="0.7" fill="#000"/>
+<circle cx="146.00" cy="300.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="146.00" y="301.05" font-size="3.3" font-weight="bold" text-anchor="middle">D</text>
+<line x1="140.00" y1="318.00" x2="181.00" y2="315.00" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<circle cx="181.00" cy="315.00" r="0.7" fill="#000"/>
+<circle cx="140.00" cy="318.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="140.00" y="319.05" font-size="3.3" font-weight="bold" text-anchor="middle">I</text>
+<line x1="140.00" y1="345.00" x2="180.50" y2="342.00" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<circle cx="180.50" cy="342.00" r="0.7" fill="#000"/>
+<circle cx="140.00" cy="345.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="140.00" y="346.05" font-size="3.3" font-weight="bold" text-anchor="middle">J</text>
+<line x1="240.00" y1="368.00" x2="205.00" y2="360.00" stroke="#000" stroke-width="0.13" stroke-linecap="butt"/>
+<circle cx="205.00" cy="360.00" r="0.7" fill="#000"/>
+<circle cx="240.00" cy="368.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="240.00" y="369.05" font-size="3.3" font-weight="bold" text-anchor="middle">K</text>
+<text x="40" y="30" font-size="6" font-weight="bold">A</text>
+<text x="325" y="100" font-size="6" font-weight="bold">A</text>
+<line x1="342" y1="42" x2="578" y2="42" stroke="#000" stroke-width="0.4"/>
+<text x="342" y="38" font-size="5" font-weight="bold" letter-spacing="0.8">LEGEND  —  COMPONENTS</text>
+<circle cx="348.00" cy="53.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="348.00" y="54.05" font-size="3.3" font-weight="bold" text-anchor="middle">A</text>
+<text x="355.00" y="54.30" font-size="3.4">Stainless-steel four-prong suspension hook</text>
+<circle cx="348.00" cy="64.50" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="348.00" y="65.55" font-size="3.3" font-weight="bold" text-anchor="middle">B</text>
+<text x="355.00" y="65.80" font-size="3.4">Telescopic mast &#8212; upper section, &#216;20</text>
+<circle cx="348.00" cy="76.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="348.00" y="77.05" font-size="3.3" font-weight="bold" text-anchor="middle">C</text>
+<text x="355.00" y="77.30" font-size="3.4">Telescopic mast &#8212; intermediate section, &#216;40</text>
+<circle cx="348.00" cy="87.50" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="348.00" y="88.55" font-size="3.3" font-weight="bold" text-anchor="middle">D</text>
+<text x="355.00" y="88.80" font-size="3.4">Telescopic mast &#8212; base section, &#216;100</text>
+<circle cx="348.00" cy="99.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="348.00" y="100.05" font-size="3.3" font-weight="bold" text-anchor="middle">E</text>
+<text x="355.00" y="100.30" font-size="3.4">Pre-tensioned rigging cable, &#216;2.2</text>
+<circle cx="348.00" cy="110.50" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="348.00" y="111.55" font-size="3.3" font-weight="bold" text-anchor="middle">F</text>
+<text x="355.00" y="111.80" font-size="3.4">Upper canopy panel, 540 &#215; 500</text>
+<circle cx="348.00" cy="122.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="348.00" y="123.05" font-size="3.3" font-weight="bold" text-anchor="middle">G</text>
+<text x="355.00" y="123.30" font-size="3.4">Radial spreader spar, &#216;14.3  (&#215;4)</text>
+<circle cx="348.00" cy="133.50" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="348.00" y="134.55" font-size="3.3" font-weight="bold" text-anchor="middle">H</text>
+<text x="355.00" y="134.80" font-size="3.4">PE woven hammock membrane</text>
+<circle cx="348.00" cy="145.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="348.00" y="146.05" font-size="3.3" font-weight="bold" text-anchor="middle">I</text>
+<text x="355.00" y="146.30" font-size="3.4">Central distribution hub, &#216;80</text>
+<circle cx="348.00" cy="156.50" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="348.00" y="157.55" font-size="3.3" font-weight="bold" text-anchor="middle">J</text>
+<text x="355.00" y="157.80" font-size="3.4">Driven ground socket, &#216;90</text>
+<circle cx="348.00" cy="168.00" r="3" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="348.00" y="169.05" font-size="3.3" font-weight="bold" text-anchor="middle">K</text>
+<text x="355.00" y="169.30" font-size="3.4">Cast-in-situ concrete footing</text>
+<text x="342" y="184.5" font-size="4.2" font-weight="bold" letter-spacing="0.6">MATERIALS</text>
+<rect x="346.00" y="187.50" width="8" height="5" fill="url(#steel)" stroke="#000" stroke-width="0.3"/>
+<text x="357.00" y="191.10" font-size="3.2">Structural steel (section)</text>
+<rect x="346.00" y="195.50" width="8" height="5" fill="url(#concrete)" stroke="#000" stroke-width="0.3"/>
+<text x="357.00" y="199.10" font-size="3.2">Cast concrete</text>
+<rect x="346.00" y="203.50" width="8" height="5" fill="url(#earth)" stroke="#000" stroke-width="0.3"/>
+<text x="357.00" y="207.10" font-size="3.2">Compacted earth</text>
+<rect x="346.00" y="211.50" width="8" height="5" fill="url(#fabric)" stroke="#000" stroke-width="0.3"/>
+<text x="357.00" y="215.10" font-size="3.2">Tensioned PE membrane</text>
+<line x1="342" y1="288" x2="578" y2="288" stroke="#000" stroke-width="0.4"/>
+<text x="342" y="285" font-size="4.2" font-weight="bold" letter-spacing="0.6">DEPLOYMENT SEQUENCE</text>
+<rect x="391.00" y="320.00" width="2.00" height="10.00" fill="#cfcfcf" stroke="#333" stroke-width="0.25"/>
+<path d="M392.00,319.60 q0.60,-1.20 1.20,0" fill="none" stroke="#333" stroke-width="0.25"/>
+<text x="392.00" y="335.00" font-size="3" text-anchor="middle">1  STOWED</text>
+<rect x="461.00" y="320.00" width="2.00" height="10.00" fill="#cfcfcf" stroke="#333" stroke-width="0.25"/>
+<rect x="461.60" y="303.00" width="0.80" height="17.00" fill="#cfcfcf" stroke="#333" stroke-width="0.25"/>
+<rect x="461.80" y="286.00" width="0.40" height="17.00" fill="#cfcfcf" stroke="#333" stroke-width="0.25"/>
+<text x="462.00" y="335.00" font-size="3" text-anchor="middle">2  DEPLOYING</text>
+<path d="M532.00,286.00 L547.20,315.40 L532.00,320.00 L516.80,315.40 Z" fill="#cfcfcf" stroke="#333" stroke-width="0.25"/>
+<path d="M532.00,286.00 L537.40,294.60 L526.60,294.60 Z" fill="#bdbdbd" stroke="#333" stroke-width="0.25"/>
+<rect x="531.80" y="286.00" width="0.40" height="34.00" fill="#cfcfcf" stroke="#333" stroke-width="0.25"/>
+<text x="532.00" y="335.00" font-size="3" text-anchor="middle">3  DEPLOYED</text>
+<g transform="translate(348,356)">
+<rect x="0" y="0" width="230" height="48" fill="none" stroke="#000" stroke-width="0.6"/>
+<line x1="0" y1="14" x2="230" y2="14" stroke="#000" stroke-width="0.3"/>
+<line x1="0" y1="26" x2="230" y2="26" stroke="#000" stroke-width="0.3"/>
+<line x1="0" y1="37" x2="230" y2="37" stroke="#000" stroke-width="0.3"/>
+<line x1="150" y1="26" x2="150" y2="48" stroke="#000" stroke-width="0.3"/>
+<text x="4" y="10" font-size="6.5" font-weight="bold" letter-spacing="1">PLUG-IN PARASITE</text>
+<text x="4" y="21.5" font-size="3.6">Suspended micro-shelter &#8212; Section A&#8211;A (deployed)</text>
+<text x="4" y="33" font-size="3.4">caglarcelik architects</text>
+<text x="4" y="44" font-size="3.4">General arrangement &#183; structural section</text>
+<text x="154" y="33" font-size="3.4">Scale 1:10 (A2)</text>
+<text x="154" y="44" font-size="3.4">2026-06-01 &#183; Rev. C &#183; CCA</text>
+</g>
+<g transform="translate(40,392)">
+<rect x="0" y="0" width="10" height="2" fill="#000" stroke="#000" stroke-width="0.2"/>
+<rect x="10" y="0" width="10" height="2" fill="#fff" stroke="#000" stroke-width="0.2"/>
+<rect x="20" y="0" width="10" height="2" fill="#000" stroke="#000" stroke-width="0.2"/>
+<rect x="30" y="0" width="10" height="2" fill="#fff" stroke="#000" stroke-width="0.2"/>
+<rect x="40" y="0" width="10" height="2" fill="#000" stroke="#000" stroke-width="0.2"/>
+<text x="0" y="5.5" font-size="2.8" text-anchor="middle">0</text>
+<text x="10" y="5.5" font-size="2.8" text-anchor="middle"></text>
+<text x="20" y="5.5" font-size="2.8" text-anchor="middle">200</text>
+<text x="30" y="5.5" font-size="2.8" text-anchor="middle"></text>
+<text x="40" y="5.5" font-size="2.8" text-anchor="middle">400</text>
+<text x="50" y="5.5" font-size="2.8" text-anchor="middle">500</text>
+<text x="0" y="-2" font-size="3.4" font-weight="bold">1:10</text>
+<text x="60" y="5.5" font-size="2.8">mm</text>
+</g>
+</svg>

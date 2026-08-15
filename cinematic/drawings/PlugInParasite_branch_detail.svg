@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="594mm" height="420mm" viewBox="0 0 594 420" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<pattern id="steel" patternUnits="userSpaceOnUse" width="0.8" height="0.8" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="0.8" stroke="#1a1a1a" stroke-width="0.08"/></pattern>
+<pattern id="steelx" patternUnits="userSpaceOnUse" width="0.9" height="0.9" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="0.9" stroke="#1a1a1a" stroke-width="0.09"/><line x1="0" y1="0" x2="0.9" y2="0" stroke="#1a1a1a" stroke-width="0.09"/></pattern>
+<pattern id="rubber" patternUnits="userSpaceOnUse" width="1.5" height="1.5"><rect width="1.5" height="1.5" fill="#b9b9b9"/><circle cx="0.5" cy="0.5" r="0.22" fill="#6f6f6f"/><circle cx="1.1" cy="1.15" r="0.16" fill="#7d7d7d"/></pattern>
+<marker id="ld" markerWidth="6" markerHeight="6" refX="3" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L3,5 L6,0" fill="none" stroke="#888" stroke-width="0.4"/></marker>
+</defs>
+<rect x="6" y="6" width="582" height="408" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<rect x="10" y="10" width="574" height="400" fill="none" stroke="#000" stroke-width="0.8"/>
+<path d="M226.10,98.00 L226.20,99.83 L225.53,101.59 L225.95,103.52 L224.62,105.06 L224.99,107.10 L223.44,108.44 L223.35,110.41 L221.97,111.73 L221.14,113.36 L220.10,114.86 L218.57,115.93 L217.74,117.70 L215.77,118.19 L214.87,120.05 L212.82,120.21 L211.60,121.79 L209.69,121.99 L208.09,122.89 L206.34,123.42 L204.49,123.45 L202.77,124.34 L200.89,123.61 L199.07,124.58 L197.32,123.49 L195.40,124.08 L193.75,123.07 L191.90,122.92 L190.20,122.26 L188.66,121.25 L186.77,120.92 L185.66,119.26 L183.62,118.96 L182.86,117.04 L180.93,116.41 L180.23,114.59 L178.78,113.42 L177.84,111.85 L177.13,110.16 L175.84,108.76 L175.89,106.77 L174.43,105.33 L174.95,103.32 L173.73,101.69 L174.28,99.80 L173.74,98.00 L173.96,96.18 L174.32,94.39 L174.16,92.51 L175.32,90.92 L175.01,88.91 L176.61,87.59 L176.56,85.54 L178.15,84.35 L178.73,82.54 L180.03,81.24 L181.32,79.97 L182.34,78.39 L184.18,77.76 L185.14,75.96 L187.20,75.83 L188.36,74.13 L190.36,74.14 L191.86,72.96 L193.70,72.74 L195.49,72.40 L197.24,71.78 L199.10,72.31 L200.93,71.44 L202.68,72.54 L204.61,71.83 L206.22,73.05 L208.14,72.93 L209.74,73.89 L211.41,74.61 L213.17,75.19 L214.39,76.67 L216.35,77.07 L217.13,78.97 L219.12,79.54 L219.68,81.48 L221.35,82.49 L222.02,84.24 L223.01,85.77 L224.03,87.30 L224.20,89.19 L225.52,90.68 L225.04,92.68 L226.33,94.30 L225.61,96.21 L226.41,98.00 Z" fill="#efe9df" stroke="#3a2f25" stroke-width="0.9"/>
+<circle cx="200.00" cy="98.00" r="25.00" fill="none" stroke="#5a4a38" stroke-width="0.5"/>
+<circle cx="200.00" cy="98.00" r="23.60" fill="none" stroke="#7c8a5a" stroke-width="0.35"/>
+<circle cx="200.60" cy="97.60" r="21.40" fill="none" stroke="#9c8e76" stroke-width="0.18"/>
+<circle cx="200.60" cy="97.60" r="18.70" fill="none" stroke="#9c8e76" stroke-width="0.18"/>
+<circle cx="200.60" cy="97.60" r="16.00" fill="none" stroke="#9c8e76" stroke-width="0.18"/>
+<circle cx="200.60" cy="97.60" r="13.30" fill="none" stroke="#9c8e76" stroke-width="0.18"/>
+<circle cx="200.60" cy="97.60" r="10.60" fill="none" stroke="#9c8e76" stroke-width="0.18"/>
+<circle cx="200.60" cy="97.60" r="7.90" fill="none" stroke="#9c8e76" stroke-width="0.18"/>
+<circle cx="200.60" cy="97.60" r="5.20" fill="none" stroke="#9c8e76" stroke-width="0.18"/>
+<line x1="203.60" y1="97.60" x2="222.60" y2="97.60" stroke="#b3a596" stroke-width="0.1" stroke-linecap="round"/>
+<line x1="203.20" y1="99.10" x2="219.65" y2="108.60" stroke="#b3a596" stroke-width="0.1" stroke-linecap="round"/>
+<line x1="202.10" y1="100.20" x2="211.60" y2="116.65" stroke="#b3a596" stroke-width="0.1" stroke-linecap="round"/>
+<line x1="200.60" y1="100.60" x2="200.60" y2="119.60" stroke="#b3a596" stroke-width="0.1" stroke-linecap="round"/>
+<line x1="199.10" y1="100.20" x2="189.60" y2="116.65" stroke="#b3a596" stroke-width="0.1" stroke-linecap="round"/>
+<line x1="198.00" y1="99.10" x2="181.55" y2="108.60" stroke="#b3a596" stroke-width="0.1" stroke-linecap="round"/>
+<line x1="197.60" y1="97.60" x2="178.60" y2="97.60" stroke="#b3a596" stroke-width="0.1" stroke-linecap="round"/>
+<line x1="198.00" y1="96.10" x2="181.55" y2="86.60" stroke="#b3a596" stroke-width="0.1" stroke-linecap="round"/>
+<line x1="199.10" y1="95.00" x2="189.60" y2="78.55" stroke="#b3a596" stroke-width="0.1" stroke-linecap="round"/>
+<line x1="200.60" y1="94.60" x2="200.60" y2="75.60" stroke="#b3a596" stroke-width="0.1" stroke-linecap="round"/>
+<line x1="202.10" y1="95.00" x2="211.60" y2="78.55" stroke="#b3a596" stroke-width="0.1" stroke-linecap="round"/>
+<line x1="203.20" y1="96.10" x2="219.65" y2="86.60" stroke="#b3a596" stroke-width="0.1" stroke-linecap="round"/>
+<circle cx="200.60" cy="97.60" r="0.70" fill="#000" stroke="#000" stroke-width="0"/>
+<path d="M180.50,111.75 L168.00,105.50 L169.00,121.75 L182.00,121.00 Z" fill="#efe9df" stroke="#3a2f25" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M185.90,122.42 L183.83,121.10 L181.87,119.60 L180.06,117.94 L178.40,116.13 L176.90,114.17 L175.58,112.10 L174.44,109.92 L173.50,107.64 L172.76,105.30 L172.23,102.90 L171.91,100.46 L171.80,98.00 L171.91,95.54 L172.23,93.10 L172.76,90.70 L173.50,88.36 L174.44,86.08 L175.58,83.90 L176.90,81.83 L178.40,79.87 L180.06,78.06 L181.87,76.40 L183.83,74.90 L185.90,73.58 L188.08,72.44 L190.36,71.50 L192.70,70.76 L195.10,70.23 L197.54,69.91 L200.00,69.80 L202.46,69.91 L204.90,70.23 L207.30,70.76 L209.64,71.50 L211.92,72.44 L214.10,73.58 L216.17,74.90 L218.13,76.40 L219.94,78.06 L221.60,79.87 L223.10,81.83 L224.42,83.90 L225.56,86.08 L226.50,88.36 L227.24,90.70 L227.77,93.10 L228.09,95.54 L228.20,98.00 L228.09,100.46 L227.77,102.90 L227.24,105.30 L226.50,107.64 L225.56,109.92 L224.42,112.10 L223.10,114.17 L221.60,116.13 L219.94,117.94 L218.13,119.60 L216.17,121.10 L214.10,122.42 L212.70,120.00 L214.57,118.81 L216.33,117.46 L217.96,115.96 L219.46,114.33 L220.81,112.57 L222.00,110.70 L223.02,108.73 L223.87,106.69 L224.53,104.57 L225.01,102.41 L225.30,100.21 L225.40,98.00 L225.30,95.79 L225.01,93.59 L224.53,91.43 L223.87,89.31 L223.02,87.27 L222.00,85.30 L220.81,83.43 L219.46,81.67 L217.96,80.04 L216.33,78.54 L214.57,77.19 L212.70,76.00 L210.73,74.98 L208.69,74.13 L206.57,73.47 L204.41,72.99 L202.21,72.70 L200.00,72.60 L197.79,72.70 L195.59,72.99 L193.43,73.47 L191.31,74.13 L189.27,74.98 L187.30,76.00 L185.43,77.19 L183.67,78.54 L182.04,80.04 L180.54,81.67 L179.19,83.43 L178.00,85.30 L176.98,87.27 L176.13,89.31 L175.47,91.43 L174.99,93.59 L174.70,95.79 L174.60,98.00 L174.70,100.21 L174.99,102.41 L175.47,104.57 L176.13,106.69 L176.98,108.73 L178.00,110.70 L179.19,112.57 L180.54,114.33 L182.04,115.96 L183.67,117.46 L185.43,118.81 L187.30,120.00 Z" fill="url(#rubber)" stroke="#444" stroke-width="0.4"/>
+<polyline points="200.00,165.00 178.79,119.21 178.79,119.21 177.19,117.48 175.73,115.63 174.42,113.67 173.27,111.62 172.28,109.48 171.47,107.27 170.83,105.00 170.37,102.69 170.09,100.35 170.00,98.00 170.09,95.65 170.37,93.31 170.83,91.00 171.47,88.73 172.28,86.52 173.27,84.38 174.42,82.33 175.73,80.37 177.19,78.52 178.79,76.79 180.52,75.19 182.37,73.73 184.33,72.42 186.38,71.27 188.52,70.28 190.73,69.47 193.00,68.83 195.31,68.37 197.65,68.09 200.00,68.00 202.35,68.09 204.69,68.37 207.00,68.83 209.27,69.47 211.48,70.28 213.62,71.27 215.67,72.42 217.63,73.73 219.48,75.19 221.21,76.79 222.81,78.52 224.27,80.37 225.58,82.33 226.73,84.38 227.72,86.52 228.53,88.73 229.17,91.00 229.63,93.31 229.91,95.65 230.00,98.00 229.91,100.35 229.63,102.69 229.17,105.00 228.53,107.27 227.72,109.48 226.73,111.62 225.58,113.67 224.27,115.63 222.81,117.48 221.21,119.21 221.21,119.21 200.00,165.00" fill="none" stroke="#7d7d7d" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="200.00,165.00 178.79,119.21 178.79,119.21 177.19,117.48 175.73,115.63 174.42,113.67 173.27,111.62 172.28,109.48 171.47,107.27 170.83,105.00 170.37,102.69 170.09,100.35 170.00,98.00 170.09,95.65 170.37,93.31 170.83,91.00 171.47,88.73 172.28,86.52 173.27,84.38 174.42,82.33 175.73,80.37 177.19,78.52 178.79,76.79 180.52,75.19 182.37,73.73 184.33,72.42 186.38,71.27 188.52,70.28 190.73,69.47 193.00,68.83 195.31,68.37 197.65,68.09 200.00,68.00 202.35,68.09 204.69,68.37 207.00,68.83 209.27,69.47 211.48,70.28 213.62,71.27 215.67,72.42 217.63,73.73 219.48,75.19 221.21,76.79 222.81,78.52 224.27,80.37 225.58,82.33 226.73,84.38 227.72,86.52 228.53,88.73 229.17,91.00 229.63,93.31 229.91,95.65 230.00,98.00 229.91,100.35 229.63,102.69 229.17,105.00 228.53,107.27 227.72,109.48 226.73,111.62 225.58,113.67 224.27,115.63 222.81,117.48 221.21,119.21 221.21,119.21 200.00,165.00" fill="none" stroke="none" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="200.00,165.00 178.79,119.21 178.79,119.21 177.19,117.48 175.73,115.63 174.42,113.67 173.27,111.62 172.28,109.48 171.47,107.27 170.83,105.00 170.37,102.69 170.09,100.35 170.00,98.00 170.09,95.65 170.37,93.31 170.83,91.00 171.47,88.73 172.28,86.52 173.27,84.38 174.42,82.33 175.73,80.37 177.19,78.52 178.79,76.79 180.52,75.19 182.37,73.73 184.33,72.42 186.38,71.27 188.52,70.28 190.73,69.47 193.00,68.83 195.31,68.37 197.65,68.09 200.00,68.00 202.35,68.09 204.69,68.37 207.00,68.83 209.27,69.47 211.48,70.28 213.62,71.27 215.67,72.42 217.63,73.73 219.48,75.19 221.21,76.79 222.81,78.52 224.27,80.37 225.58,82.33 226.73,84.38 227.72,86.52 228.53,88.73 229.17,91.00 229.63,93.31 229.91,95.65 230.00,98.00 229.91,100.35 229.63,102.69 229.17,105.00 228.53,107.27 227.72,109.48 226.73,111.62 225.58,113.67 224.27,115.63 222.81,117.48 221.21,119.21 221.21,119.21 200.00,165.00" fill="none" stroke="#333" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="200.00,165.00 178.79,119.21 178.79,119.21 177.19,117.48 175.73,115.63 174.42,113.67 173.27,111.62 172.28,109.48 171.47,107.27 170.83,105.00 170.37,102.69 170.09,100.35 170.00,98.00 170.09,95.65 170.37,93.31 170.83,91.00 171.47,88.73 172.28,86.52 173.27,84.38 174.42,82.33 175.73,80.37 177.19,78.52 178.79,76.79 180.52,75.19 182.37,73.73 184.33,72.42 186.38,71.27 188.52,70.28 190.73,69.47 193.00,68.83 195.31,68.37 197.65,68.09 200.00,68.00 202.35,68.09 204.69,68.37 207.00,68.83 209.27,69.47 211.48,70.28 213.62,71.27 215.67,72.42 217.63,73.73 219.48,75.19 221.21,76.79 222.81,78.52 224.27,80.37 225.58,82.33 226.73,84.38 227.72,86.52 228.53,88.73 229.17,91.00 229.63,93.31 229.91,95.65 230.00,98.00 229.91,100.35 229.63,102.69 229.17,105.00 228.53,107.27 227.72,109.48 226.73,111.62 225.58,113.67 224.27,115.63 222.81,117.48 221.21,119.21 221.21,119.21 200.00,165.00" fill="none" stroke="#cfcfcf" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="177.19" y1="117.61" x2="180.39" y2="120.81" stroke="#222" stroke-width="0.5" stroke-linecap="round"/>
+<line x1="219.61" y1="117.61" x2="222.81" y2="120.81" stroke="#222" stroke-width="0.5" stroke-linecap="round"/>
+<path d="M120.80,68.00 L120.68,69.78 L120.30,71.53 L119.69,73.21 L118.86,74.78 L117.81,76.23 L116.56,77.51 L115.16,78.61 L113.61,79.50 L111.96,80.17 L110.22,80.61 L108.45,80.79 L106.66,80.73 L104.90,80.42 L103.21,79.87 L101.60,79.09 L100.12,78.09 L98.79,76.89 L97.64,75.52 L96.70,74.01 L95.97,72.38 L95.48,70.66 L95.23,68.89 L95.23,67.11 L95.48,65.34 L95.97,63.62 L96.70,61.99 L97.64,60.48 L98.79,59.11 L100.12,57.91 L101.60,56.91 L103.21,56.13 L104.90,55.58 L106.66,55.27 L108.45,55.21 L110.22,55.39 L111.96,55.83 L113.61,56.50 L115.16,57.39 L116.56,58.49 L117.81,59.77 L118.86,61.22 L119.69,62.79 L120.30,64.47 L120.68,66.22 L120.80,68.00 Z" fill="#efe9df" stroke="#3a2f25" stroke-width="0.7"/>
+<circle cx="108.00" cy="68.00" r="10.80" fill="none" stroke="#9c8e76" stroke-width="0.3"/>
+<circle cx="108.30" cy="67.80" r="0.50" fill="#000" stroke="#000" stroke-width="0"/>
+<path d="M95.70,75.10 L94.83,73.32 L94.22,71.44 L93.88,69.48 L93.81,67.50 L94.02,65.53 L94.49,63.61 L95.24,61.78 L96.23,60.06 L97.45,58.50 L98.87,57.12 L100.48,55.96 L102.22,55.03 L104.09,54.35 L106.02,53.94 L108.00,53.80 L109.98,53.94 L111.91,54.35 L113.78,55.03 L115.52,55.96 L117.13,57.12 L118.55,58.50 L119.77,60.06 L120.76,61.78 L121.51,63.61 L121.98,65.53 L122.19,67.50 L122.12,69.48 L121.78,71.44 L121.17,73.32 L120.30,75.10" fill="none" stroke="url(#rubber)" stroke-width="2.6"/>
+<polyline points="95.70,75.10 115.75,81.42 198.00,182.00" fill="none" stroke="#333" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="95.70,75.10 115.75,81.42 198.00,182.00" fill="none" stroke="#dcdcdc" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M196.80,162.00 C196.80,167.00 200.00,169.40 200.00,169.40 C200.00,169.40 203.20,167.00 203.20,162.00" fill="none" stroke="#111" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M198.30,162.00 C198.30,166.20 200.00,167.60 200.00,167.60 C200.00,167.60 201.70,166.20 201.70,162.00" fill="none" stroke="#111" stroke-width="0.35" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="200.00" cy="183.00" rx="6.2" ry="7.2" fill="url(#steelx)" stroke="#111" stroke-width="0.6"/>
+<ellipse cx="200.00" cy="183.00" rx="3.4" ry="4.4" fill="#fff" stroke="#111" stroke-width="0.5"/>
+<path d="M194.50,201.00 C192.50,210.00 207.50,210.00 205.50,201.00" fill="none" stroke="#111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="192.80" y1="201.00" x2="207.20" y2="201.00" stroke="#111" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="207.20,199.40 209.40,200.10 209.40,201.90 207.20,202.60" fill="url(#steel)" stroke="#111" stroke-width="0.3"/>
+<line x1="192.80" y1="199.60" x2="192.80" y2="202.40" stroke="#111" stroke-width="0.4" stroke-linecap="round"/>
+<circle cx="200.00" cy="222.00" r="2.40" fill="#fff" stroke="#111" stroke-width="0.5"/>
+<rect x="196.80" y="224.00" width="6.4" height="9" rx="2.2" fill="url(#steelx)" stroke="#111" stroke-width="0.6"/>
+<circle cx="200.00" cy="228.50" r="1.30" fill="#fff" stroke="#111" stroke-width="0.4"/>
+<circle cx="200.00" cy="235.00" r="2.40" fill="#fff" stroke="#111" stroke-width="0.5"/>
+<ellipse cx="200.00" cy="243.00" rx="4.6" ry="5.6" fill="url(#steel)" stroke="#111" stroke-width="0.7"/>
+<ellipse cx="200.00" cy="243.00" rx="2.1" ry="3.0" fill="#fff" stroke="#111" stroke-width="0.5"/>
+<polygon points="196.00,247.80 204.00,247.80 202.40,253.00 197.60,253.00" fill="url(#steel)" stroke="#111" stroke-width="0.5"/>
+<line x1="197.60" y1="253.00" x2="202.40" y2="253.00" stroke="#111" stroke-width="0.6" stroke-linecap="round"/>
+<rect x="198.60" y="253.00" width="2.8" height="120" fill="url(#steel)" stroke="#111" stroke-width="0.5"/>
+<line x1="200.00" y1="253.00" x2="200.00" y2="373.00" stroke="#000" stroke-width="0.12" stroke-dasharray="3,1,0.6,1" stroke-linecap="round"/>
+<line x1="200.00" y1="257.00" x2="228.00" y2="313.00" stroke="#000" stroke-width="0.3" stroke-linecap="round"/>
+<line x1="200.00" y1="257.00" x2="172.00" y2="313.00" stroke="#000" stroke-width="0.3" stroke-linecap="round"/>
+<line x1="200.00" y1="257.00" x2="260.00" y2="313.00" stroke="#000" stroke-width="0.3" stroke-linecap="round"/>
+<line x1="200.00" y1="257.00" x2="140.00" y2="313.00" stroke="#000" stroke-width="0.3" stroke-linecap="round"/>
+<path d="M197.80,150.00 L200.00,153.00 L202.20,150.00" fill="none" stroke="#bbb" stroke-width="0.4"/>
+<path d="M197.80,236.00 L200.00,239.00 L202.20,236.00" fill="none" stroke="#bbb" stroke-width="0.4"/>
+<line x1="300.00" y1="68.00" x2="221.50" y2="85.50" stroke="#000" stroke-width="0.13" stroke-linecap="round"/>
+<circle cx="221.50" cy="85.50" r="0.70" fill="#000" stroke="#000" stroke-width="0"/>
+<circle cx="300.00" cy="68.00" r="3.10" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="300.00" y="69.05" font-size="3.3" text-anchor="middle" font-weight="bold" fill="#000">A</text>
+<line x1="300.00" y1="92.00" x2="226.63" y2="106.65" stroke="#000" stroke-width="0.13" stroke-linecap="round"/>
+<circle cx="226.63" cy="106.65" r="0.70" fill="#000" stroke="#000" stroke-width="0"/>
+<circle cx="300.00" cy="92.00" r="3.10" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="300.00" y="93.05" font-size="3.3" text-anchor="middle" font-weight="bold" fill="#000">B</text>
+<line x1="300.00" y1="116.00" x2="223.21" y2="129.21" stroke="#000" stroke-width="0.13" stroke-linecap="round"/>
+<circle cx="223.21" cy="129.21" r="0.70" fill="#000" stroke="#000" stroke-width="0"/>
+<circle cx="300.00" cy="116.00" r="3.10" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="300.00" y="117.05" font-size="3.3" text-anchor="middle" font-weight="bold" fill="#000">C</text>
+<line x1="300.00" y1="160.00" x2="203.00" y2="166.00" stroke="#000" stroke-width="0.13" stroke-linecap="round"/>
+<circle cx="203.00" cy="166.00" r="0.70" fill="#000" stroke="#000" stroke-width="0"/>
+<circle cx="300.00" cy="160.00" r="3.10" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="300.00" y="161.05" font-size="3.3" text-anchor="middle" font-weight="bold" fill="#000">D</text>
+<line x1="300.00" y1="181.00" x2="206.00" y2="183.00" stroke="#000" stroke-width="0.13" stroke-linecap="round"/>
+<circle cx="206.00" cy="183.00" r="0.70" fill="#000" stroke="#000" stroke-width="0"/>
+<circle cx="300.00" cy="181.00" r="3.10" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="300.00" y="182.05" font-size="3.3" text-anchor="middle" font-weight="bold" fill="#000">E</text>
+<line x1="300.00" y1="202.00" x2="209.40" y2="201.00" stroke="#000" stroke-width="0.13" stroke-linecap="round"/>
+<circle cx="209.40" cy="201.00" r="0.70" fill="#000" stroke="#000" stroke-width="0"/>
+<circle cx="300.00" cy="202.00" r="3.10" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="300.00" y="203.05" font-size="3.3" text-anchor="middle" font-weight="bold" fill="#000">F</text>
+<line x1="300.00" y1="226.00" x2="203.20" y2="229.00" stroke="#000" stroke-width="0.13" stroke-linecap="round"/>
+<circle cx="203.20" cy="229.00" r="0.70" fill="#000" stroke="#000" stroke-width="0"/>
+<circle cx="300.00" cy="226.00" r="3.10" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="300.00" y="227.05" font-size="3.3" text-anchor="middle" font-weight="bold" fill="#000">G</text>
+<line x1="300.00" y1="248.00" x2="204.60" y2="243.00" stroke="#000" stroke-width="0.13" stroke-linecap="round"/>
+<circle cx="204.60" cy="243.00" r="0.70" fill="#000" stroke="#000" stroke-width="0"/>
+<circle cx="300.00" cy="248.00" r="3.10" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="300.00" y="249.05" font-size="3.3" text-anchor="middle" font-weight="bold" fill="#000">H</text>
+<line x1="92.00" y1="54.00" x2="108.00" y2="56.00" stroke="#000" stroke-width="0.13" stroke-linecap="round"/>
+<circle cx="108.00" cy="56.00" r="0.70" fill="#000" stroke="#000" stroke-width="0"/>
+<circle cx="92.00" cy="54.00" r="3.10" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="92.00" y="55.05" font-size="3.3" text-anchor="middle" font-weight="bold" fill="#000">I</text>
+<line x1="120.00" y1="150.00" x2="169.00" y2="113.50" stroke="#000" stroke-width="0.13" stroke-linecap="round"/>
+<circle cx="169.00" cy="113.50" r="0.70" fill="#000" stroke="#000" stroke-width="0"/>
+<circle cx="120.00" cy="150.00" r="3.10" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="120.00" y="151.05" font-size="3.3" text-anchor="middle" font-weight="bold" fill="#000">J</text>
+<text x="28.00" y="28.00" font-size="6.5" text-anchor="start" font-weight="bold" fill="#000" letter-spacing="0.5">BRANCH ATTACHMENT &#8212; DETAIL</text>
+<text x="28.00" y="35.00" font-size="2.9" text-anchor="start" font-weight="normal" fill="#000">Vertical section &#183; host limb in cross-section &#183; suspended (tension) connection &#183; NO dimensions (design intent)</text>
+<circle cx="200" cy="300" r="0" />
+<text x="368.00" y="34.00" font-size="4.6" text-anchor="start" font-weight="bold" fill="#000" letter-spacing="0.7">LEGEND &#8212; CONNECTION</text>
+<line x1="368" y1="37.00" x2="578" y2="37.00" stroke="#000" stroke-width="0.4"/>
+<circle cx="373.00" cy="43.00" r="2.70" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="373.00" y="44.05" font-size="3.0" text-anchor="middle" font-weight="bold" fill="#000">A</text>
+<text x="378.00" y="44.20" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Host limb (live, sound, large-diameter) shown in cross-section &#8212; bark, living cambium ring, growth rings, pith</text>
+<circle cx="373.00" cy="54.20" r="2.70" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="373.00" y="55.25" font-size="3.0" text-anchor="middle" font-weight="bold" fill="#000">B</text>
+<text x="378.00" y="55.40" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Cambium-saver sleeve (EPDM / felt-lined) &#8212; the ONLY element bearing on bark; wraps past where the sling leaves the limb</text>
+<circle cx="373.00" cy="65.40" r="2.70" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="373.00" y="66.45" font-size="3.0" text-anchor="middle" font-weight="bold" fill="#000">C</text>
+<text x="378.00" y="66.60" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Wide polyester round sling, rigged as an open BASKET over B &#8212; near-vertical legs, demountable, never a choking ring</text>
+<circle cx="373.00" cy="76.60" r="2.70" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="373.00" y="77.65" font-size="3.0" text-anchor="middle" font-weight="bold" fill="#000">D</text>
+<text x="378.00" y="77.80" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Steel thimble &#8212; protects sling fibres at the bend</text>
+<circle cx="373.00" cy="87.80" r="2.70" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="373.00" y="88.85" font-size="3.0" text-anchor="middle" font-weight="bold" fill="#000">E</text>
+<text x="378.00" y="89.00" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Forged master ring / pear collector</text>
+<circle cx="373.00" cy="99.00" r="2.70" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="373.00" y="100.05" font-size="3.0" text-anchor="middle" font-weight="bold" fill="#000">F</text>
+<text x="378.00" y="100.20" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Bolt-type (safety-pin) bow shackle &#8212; will not unscrew under dynamic load</text>
+<circle cx="373.00" cy="110.20" r="2.70" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="373.00" y="111.25" font-size="3.0" text-anchor="middle" font-weight="bold" fill="#000">G</text>
+<text x="378.00" y="111.40" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Anti-spin swivel &#8212; frees occupant rotation, no torque into limb</text>
+<circle cx="373.00" cy="121.40" r="2.70" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="373.00" y="122.45" font-size="3.0" text-anchor="middle" font-weight="bold" fill="#000">H</text>
+<text x="378.00" y="122.60" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Forged mast-top eye capping the &#216;20 spire &#8212; engineered termination (replaces the 4-prong hook)</text>
+<circle cx="373.00" cy="132.60" r="2.70" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="373.00" y="133.65" font-size="3.0" text-anchor="middle" font-weight="bold" fill="#000">I</text>
+<text x="378.00" y="133.80" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Redundant backup sling to a 2nd sound limb &#8212; life-safety</text>
+<circle cx="373.00" cy="143.80" r="2.70" fill="#fff" stroke="#000" stroke-width="0.4"/>
+<text x="373.00" y="144.85" font-size="3.0" text-anchor="middle" font-weight="bold" fill="#000">J</text>
+<text x="378.00" y="145.00" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Basket seated against branch collar &#8212; anti-creep (no axial walk)</text>
+<text x="368.00" y="159.00" font-size="4.6" text-anchor="start" font-weight="bold" fill="#000" letter-spacing="0.7">MATERIALS</text>
+<line x1="368" y1="162.00" x2="578" y2="162.00" stroke="#000" stroke-width="0.4"/>
+<rect x="371.00" y="165.00" width="8" height="5" fill="url(#steel)" stroke="#000" stroke-width="0.3"/>
+<text x="382.00" y="168.60" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Forged / structural steel</text>
+<rect x="371.00" y="172.50" width="8" height="5" fill="url(#rubber)" stroke="#000" stroke-width="0.3"/>
+<text x="382.00" y="176.10" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Rubber / leather (cambium saver)</text>
+<rect x="371.00" y="180.00" width="8" height="5" fill="#cfcfcf" stroke="#333" stroke-width="0.4"/>
+<text x="382.00" y="183.60" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Polyester webbing (round sling)</text>
+<circle cx="375.00" cy="190.00" r="2.4" fill="#efe9df" stroke="#3a2f25" stroke-width="0.5"/>
+<circle cx="375.00" cy="190.00" r="1.4" fill="none" stroke="#9c8e76" stroke-width="0.25"/>
+<text x="382.00" y="191.10" font-size="2.85" text-anchor="start" font-weight="normal" fill="#000">Timber, cross-grain (host limb)</text>
+<text x="368.00" y="200.50" font-size="4.6" text-anchor="start" font-weight="bold" fill="#000" letter-spacing="0.7">ATTACHMENT-LIMB CRITERIA</text>
+<line x1="368" y1="203.50" x2="578" y2="203.50" stroke="#000" stroke-width="0.4"/>
+<text x="370.00" y="209.50" font-size="2.8" text-anchor="start" font-weight="normal" fill="#000">&#8226;</text>
+<text x="374.50" y="209.50" font-size="2.7" text-anchor="start" font-weight="normal" fill="#000">Live hardwood limb, &#8805; ~150 mm dia at the grip; sound species only</text>
+<text x="370.00" y="217.50" font-size="2.8" text-anchor="start" font-weight="normal" fill="#000">&#8226;</text>
+<text x="374.50" y="217.50" font-size="2.7" text-anchor="start" font-weight="normal" fill="#000">Sited near (not on) a structurally sound union; NO co-dominant / included-bark fork</text>
+<text x="370.00" y="225.50" font-size="2.8" text-anchor="start" font-weight="normal" fill="#000">&#8226;</text>
+<text x="374.50" y="225.50" font-size="2.7" text-anchor="start" font-weight="normal" fill="#000">Sounded for decay; no deadwood, cavity or cracks on the load path</text>
+<text x="368.00" y="236.50" font-size="4.6" text-anchor="start" font-weight="bold" fill="#000" letter-spacing="0.7">LOADING &amp; HARDWARE</text>
+<line x1="368" y1="239.50" x2="578" y2="239.50" stroke="#000" stroke-width="0.4"/>
+<text x="370.00" y="245.50" font-size="2.8" text-anchor="start" font-weight="normal" fill="#000">&#8226;</text>
+<text x="374.50" y="245.50" font-size="2.7" text-anchor="start" font-weight="normal" fill="#000">Design load = structure + occupant 100 kg, &#215;2.0 dynamic + canopy wind</text>
+<text x="370.00" y="253.50" font-size="2.8" text-anchor="start" font-weight="normal" fill="#000">&#8226;</text>
+<text x="374.50" y="253.50" font-size="2.7" text-anchor="start" font-weight="normal" fill="#000">Sling: vertical WLL ~1 t, rigged basket (&#8805; ~1.9 t); all metal &#8805; 5:1 on design load</text>
+<text x="370.00" y="261.50" font-size="2.8" text-anchor="start" font-weight="normal" fill="#000">&#8226;</text>
+<text x="374.50" y="261.50" font-size="2.7" text-anchor="start" font-weight="normal" fill="#000">Continuous metal-to-metal chain D&#8211;E&#8211;F&#8211;G&#8211;H; bolt shackle pinned + split-pin</text>
+<text x="370.00" y="269.50" font-size="2.8" text-anchor="start" font-weight="normal" fill="#000">&#8226;</text>
+<text x="374.50" y="269.50" font-size="2.7" text-anchor="start" font-weight="normal" fill="#000">Base of mast is a sway-restraint only &#8212; branch grip carries 100% of vertical load</text>
+<text x="368.00" y="280.50" font-size="4.6" text-anchor="start" font-weight="bold" fill="#000" letter-spacing="0.7">INSPECTION &amp; MAINTENANCE</text>
+<line x1="368" y1="283.50" x2="578" y2="283.50" stroke="#000" stroke-width="0.4"/>
+<text x="370.00" y="289.50" font-size="2.8" text-anchor="start" font-weight="normal" fill="#000">&#8226;</text>
+<text x="374.50" y="289.50" font-size="2.7" text-anchor="start" font-weight="normal" fill="#000">Re-seat / slacken sling every 1&#8211;2 seasons for radial (diameter) growth</text>
+<text x="370.00" y="297.50" font-size="2.8" text-anchor="start" font-weight="normal" fill="#000">&#8226;</text>
+<text x="374.50" y="297.50" font-size="2.7" text-anchor="start" font-weight="normal" fill="#000">Re-rate or replace textile annually (UV / abrasion); re-sound limb</text>
+<text x="370.00" y="305.50" font-size="2.8" text-anchor="start" font-weight="normal" fill="#000">&#8226;</text>
+<text x="374.50" y="305.50" font-size="2.7" text-anchor="start" font-weight="normal" fill="#000">Post-storm inspection before re-use</text>
+<g transform="translate(372,372)">
+<rect x="0" y="0" width="206" height="34" fill="none" stroke="#000" stroke-width="0.6"/>
+<line x1="0" y1="11" x2="206" y2="11" stroke="#000" stroke-width="0.3"/>
+<line x1="0" y1="23" x2="206" y2="23" stroke="#000" stroke-width="0.3"/>
+<line x1="135" y1="23" x2="135" y2="34" stroke="#000" stroke-width="0.3"/>
+<text x="4.00" y="8.00" font-size="6.2" text-anchor="start" font-weight="bold" fill="#000" letter-spacing="0.8">PLUG-IN PARASITE</text>
+<text x="4.00" y="18.00" font-size="3.3" text-anchor="start" font-weight="normal" fill="#000">Branch attachment &#8212; tree-friendly suspension detail</text>
+<text x="4.00" y="30.00" font-size="3.2" text-anchor="start" font-weight="normal" fill="#000">caglarcelik architects &#183; CCA</text>
+<text x="139.00" y="30.00" font-size="3.2" text-anchor="start" font-weight="normal" fill="#000">Detail &#183; n.t.s.</text>
+<text x="139.00" y="30.00" font-size="3.2" text-anchor="start" font-weight="normal" fill="#000"></text>
+</g>
+<text x="478.00" y="386.00" font-size="3.2" text-anchor="start" font-weight="normal" fill="#000">2026-06-01 &#183; Rev. A</text>
+</svg>

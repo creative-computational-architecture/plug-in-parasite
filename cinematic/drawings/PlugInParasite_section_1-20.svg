@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="420mm"
+     viewBox="0 0 297 420" font-family="Helvetica, Arial, sans-serif">
+
+  <!-- ============================================================
+       PLUG-IN PARASITE  —  LONGITUDINAL SECTION A-A (DEPLOYED)
+       Scale 1:20 on A3 portrait. Section plane = vertical XZ through
+       central mast axis. All dims from GH model (2026-06-01), in mm.
+       Paper map: px(x_cm)=148.5+0.5*x   py(z_cm)=320-0.5*z   (FFL z=0 -> y=320)
+       Zoning:  LEFT = component call-outs · RIGHT = levels + dim chain
+       ============================================================ -->
+
+  <defs>
+    <!-- DIN 919 steel: 45 deg diagonal, 1.6 mm spacing (light, reads as hatch) -->
+    <pattern id="metal" patternUnits="userSpaceOnUse" width="1.6" height="1.6"
+             patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="1.6" stroke="#000" stroke-width="0.09"/>
+    </pattern>
+    <!-- Earth / fill: dots + dashes -->
+    <pattern id="earth" patternUnits="userSpaceOnUse" width="4.5" height="4.5">
+      <circle cx="1.2" cy="1.2" r="0.16" fill="#000"/>
+      <line x1="2.4" y1="3.3" x2="3.8" y2="3.3" stroke="#000" stroke-width="0.09"/>
+    </pattern>
+    <marker id="arrow" markerWidth="7" markerHeight="6" refX="6" refY="2"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L6,2 L0,4 Z" fill="#000"/>
+    </marker>
+    <marker id="dot" markerWidth="3" markerHeight="3" refX="1" refY="1"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.65" fill="#000"/>
+    </marker>
+    <!-- white-haloed dimension text -->
+    <style>
+      text.dim  { font-size:2.4px; fill:#000; paint-order:stroke; stroke:#fff;
+                  stroke-width:0.9px; stroke-linejoin:round; }
+      text.note { font-size:2.5px; fill:#000; }
+      text.lvl  { font-size:2.5px; fill:#000; }
+    </style>
+  </defs>
+
+  <!-- sheet border -->
+  <rect x="8" y="8" width="281" height="404" fill="none" stroke="#000" stroke-width="0.5"/>
+
+  <!-- section title (fixed, top) -->
+  <text x="20" y="30" font-size="5" font-weight="bold" fill="#000">A&#8211;A  BOYUNA KES&#304;T</text>
+  <text x="20" y="36" font-size="2.8" fill="#000">Kesit d&#252;zlemi: merkez mast ekseni (XZ) &#183; T&#252;m &#246;l&#231;&#252;ler mm &#183; Kot &#177;0.000 = FFL &#183; Teleskopik direk a&#231;&#305;k konumda g&#246;sterilmi&#351;tir</text>
+
+  <!-- =====================================================================
+       DRAWING BODY (vertically centred)
+       ===================================================================== -->
+  <g transform="translate(0,-48)">
+
+  <!-- GROUND -->
+  <line x1="100" y1="320" x2="198" y2="320" stroke="#000" stroke-width="0.5"/>
+  <rect x="100" y="320" width="98" height="9" fill="url(#earth)"/>
+  <rect x="146.25" y="320" width="4.5" height="7.5" fill="#fff"/>
+
+  <!-- CUT MEMBERS (1.0 mm) -->
+  <g stroke="#000" stroke-width="1.0" fill="url(#metal)" stroke-linejoin="miter">
+    <!-- socket  Ø90  z -150..0 -->
+    <rect x="146.25" y="320" width="4.5" height="7.5"/>
+    <!-- seg1  Ø100  z 0..500 -->
+    <rect x="146" y="295" width="5" height="25"/>
+    <!-- seg2 VISIBLE  Ø40  z 500..1350 -->
+    <rect x="147.5" y="252.5" width="2" height="42.5"/>
+    <!-- seg3 VISIBLE  Ø20  z 1350..2200 -->
+    <rect x="148" y="210" width="1" height="42.5"/>
+    <!-- hub  Ø80 h30  @ z200 -->
+    <rect x="146.5" y="309.25" width="4" height="1.5"/>
+  </g>
+
+  <!-- TELESCOPE HIDDEN NESTED PORTIONS (0.25 mm dashed) -->
+  <g stroke="#000" stroke-width="0.25" fill="none" stroke-dasharray="1.2,0.8">
+    <!-- seg2 inside seg1 (overlap z420..500) -->
+    <line x1="147.5" y1="295" x2="147.5" y2="299"/>
+    <line x1="149.5" y1="295" x2="149.5" y2="299"/>
+    <!-- seg3 inside seg2 (overlap z1270..1350) -->
+    <line x1="148" y1="252.5" x2="148" y2="256.5"/>
+    <line x1="149" y1="252.5" x2="149" y2="256.5"/>
+  </g>
+
+  <!-- mast centreline (0.13 mm chain-dash) -->
+  <line x1="148.5" y1="201" x2="148.5" y2="329" stroke="#000" stroke-width="0.13"
+        stroke-dasharray="4,1.2,0.7,1.2"/>
+
+  <!-- VISIBLE LINES (0.5 mm) -->
+  <g stroke="#000" stroke-width="0.5" fill="none" stroke-linecap="round">
+    <!-- spars +X / -X  (hub edge -> tip) -->
+    <line x1="150.5" y1="310" x2="186.675" y2="283.25"/>
+    <line x1="146.5" y1="310" x2="110.325" y2="283.25"/>
+    <!-- hammock fabric profile (taut, slight centre sag) -->
+    <path d="M110.325,283.25 Q148.5,290.4 186.675,283.25"/>
+    <!-- canopy panel (nearly flat, slight centre droop) -->
+    <path d="M135,231.15 Q148.5,234.4 162,231.15"/>
+    <!-- hook: riser + 4-prong curl (two prongs in section plane) -->
+    <line x1="148.5" y1="210" x2="148.5" y2="206"/>
+    <path d="M148.5,206 A2.5,2.5 0 0 1 153.5,206"/>
+    <path d="M148.5,206 A2.5,2.5 0 0 0 143.5,206"/>
+  </g>
+
+  <!-- RIGGING ROPES (0.3 mm) -->
+  <g stroke="#000" stroke-width="0.3" fill="none">
+    <line x1="148.5" y1="208.5" x2="162" y2="231.15"/>
+    <line x1="148.5" y1="208.5" x2="135" y2="231.15"/>
+    <line x1="148.5" y1="208.5" x2="186.675" y2="283.25"/>
+    <line x1="148.5" y1="208.5" x2="110.325" y2="283.25"/>
+  </g>
+
+  <!-- ====================== HORIZONTAL DIMS (broken at mast) ====================== -->
+  <g stroke="#000" stroke-width="0.2" fill="none">
+    <!-- hammock span 1527 @ y=277, broken x145..152 -->
+    <line x1="110.325" y1="277" x2="145" y2="277" marker-start="url(#arrow)"/>
+    <line x1="152" y1="277" x2="186.675" y2="277" marker-end="url(#arrow)"/>
+    <line x1="110.325" y1="283.25" x2="110.325" y2="275.5"/>
+    <line x1="186.675" y1="283.25" x2="186.675" y2="275.5"/>
+    <!-- panel 540 @ y=228, broken x144..153 -->
+    <line x1="135" y1="228" x2="144" y2="228" marker-start="url(#arrow)"/>
+    <line x1="153" y1="228" x2="162" y2="228" marker-end="url(#arrow)"/>
+    <line x1="135" y1="231.15" x2="135" y2="226.5"/>
+    <line x1="162" y1="231.15" x2="162" y2="226.5"/>
+  </g>
+  <text class="dim" x="148.5" y="277.9" text-anchor="middle">1527</text>
+  <text class="dim" x="148.5" y="228.9" text-anchor="middle">540</text>
+
+  <!-- ====================== RIGHT: LEVELS + DIMENSION CHAIN ====================== -->
+  <!-- witness lines object -> dim line x=210 (0.13 mm) -->
+  <g stroke="#000" stroke-width="0.13" fill="none">
+    <line x1="153.5" y1="203.5" x2="212" y2="203.5"/>
+    <line x1="149"   y1="210"   x2="212" y2="210"/>
+    <line x1="162"   y1="231.15" x2="212" y2="231.15"/>
+    <line x1="186.675" y1="283.25" x2="212" y2="283.25"/>
+    <line x1="151"   y1="295"   x2="212" y2="295"/>
+    <line x1="151"   y1="320"   x2="212" y2="320"/>
+    <line x1="150.75" y1="327.5" x2="212" y2="327.5"/>
+  </g>
+  <!-- dim line + ticks (0.25 mm) -->
+  <g stroke="#000" fill="none">
+    <line x1="210" y1="203.5" x2="210" y2="327.5" stroke-width="0.25"/>
+    <g stroke-width="0.4">
+      <line x1="208.7" y1="204.8" x2="211.3" y2="202.2"/>
+      <line x1="208.7" y1="211.3" x2="211.3" y2="208.7"/>
+      <line x1="208.7" y1="232.45" x2="211.3" y2="229.85"/>
+      <line x1="208.7" y1="284.55" x2="211.3" y2="281.95"/>
+      <line x1="208.7" y1="296.3" x2="211.3" y2="293.7"/>
+      <line x1="208.7" y1="321.3" x2="211.3" y2="318.7"/>
+      <line x1="208.7" y1="328.8" x2="211.3" y2="326.2"/>
+    </g>
+  </g>
+  <!-- chain values (rotated, at segment midpoints) -->
+  <g font-size="2.3" fill="#000">
+    <text transform="translate(214,206.75) rotate(-90)" text-anchor="middle">130</text>
+    <text transform="translate(214,220.6) rotate(-90)" text-anchor="middle">423</text>
+    <text transform="translate(214,257.2) rotate(-90)" text-anchor="middle">1042</text>
+    <text transform="translate(214,289.1) rotate(-90)" text-anchor="middle">235</text>
+    <text transform="translate(214,307.5) rotate(-90)" text-anchor="middle">500</text>
+    <text transform="translate(214,323.75) rotate(-90)" text-anchor="middle">150</text>
+  </g>
+  <!-- level marks (just above each witness line, x=192 left-anchored) -->
+  <g font-size="2.5" fill="#000">
+    <text x="192" y="202.7">&#9660; +2.330</text>
+    <text x="192" y="209.2">&#9660; +2.200</text>
+    <text x="192" y="230.35">&#9660; +1.777</text>
+    <text x="192" y="282.45">&#9660; +0.735</text>
+    <text x="192" y="294.2">&#9660; +0.500</text>
+    <text x="192" y="319.2" font-weight="bold">&#9660; &#177;0.000  FFL</text>
+    <text x="192" y="326.7">&#9660; &#8722;0.150</text>
+  </g>
+
+  <!-- ====================== LEFT: COMPONENT CALL-OUTS ====================== -->
+  <!-- leaders (0.2 mm) with dot at element -->
+  <g stroke="#000" stroke-width="0.2" fill="none">
+    <line x1="105" y1="200" x2="143.5" y2="205" marker-end="url(#dot)"/>   <!-- hook -->
+    <line x1="105" y1="216" x2="148"   y2="225" marker-end="url(#dot)"/>   <!-- seg3 -->
+    <line x1="105" y1="234" x2="135"   y2="231.15" marker-end="url(#dot)"/><!-- panel -->
+    <line x1="105" y1="252" x2="147.5" y2="270" marker-end="url(#dot)"/>   <!-- seg2 -->
+    <line x1="105" y1="268" x2="122.2" y2="260" marker-end="url(#dot)"/>   <!-- rope -->
+    <line x1="105" y1="285" x2="128.4" y2="296.6" marker-end="url(#dot)"/> <!-- spar -->
+    <line x1="105" y1="299" x2="132"   y2="286.4" marker-end="url(#dot)"/> <!-- hammock -->
+    <line x1="105" y1="311" x2="146.5" y2="310" marker-end="url(#dot)"/>   <!-- hub -->
+    <line x1="105" y1="321" x2="146"   y2="305" marker-end="url(#dot)"/>   <!-- seg1 -->
+    <line x1="105" y1="331" x2="146.25" y2="324" marker-end="url(#dot)"/>  <!-- socket -->
+  </g>
+  <!-- text (right-anchored at x=104) -->
+  <g font-size="2.5" fill="#000" text-anchor="end">
+    <text x="104" y="200.8">4 kollu paslanmaz kanca</text>
+    <text x="104" y="216.8">Teleskopik direk seg3 &#183; &#216;20</text>
+    <text x="104" y="234.8">Kanopi panel &#183; 540&#215;500</text>
+    <text x="104" y="252.8">Teleskopik direk seg2 &#183; &#216;40</text>
+    <text x="104" y="268.8">Gergi halat&#305; &#183; &#216;2.2</text>
+    <text x="104" y="285.8">4 radyal spar &#183; &#216;14.3 / L900</text>
+    <text x="104" y="299.8">PE dokuma hammock</text>
+    <text x="104" y="311.8">Hub &#183; &#216;80</text>
+    <text x="104" y="321.8">Taban segment seg1 &#183; &#216;100</text>
+    <text x="104" y="331.8">Zemin soketi &#183; &#216;90 / 150 derin</text>
+  </g>
+
+  </g><!-- /drawing body -->
+
+  <!-- ====================== SCALE BAR (bottom-left) — 1:20 ====================== -->
+  <g transform="translate(20,388)" font-size="2.4" fill="#000">
+    <rect x="0"    y="0" width="12.5" height="1.8" fill="#000"/>
+    <rect x="12.5" y="0" width="12.5" height="1.8" fill="#fff" stroke="#000" stroke-width="0.2"/>
+    <rect x="25"   y="0" width="12.5" height="1.8" fill="#000"/>
+    <rect x="37.5" y="0" width="12.5" height="1.8" fill="#fff" stroke="#000" stroke-width="0.2"/>
+    <text x="0"  y="5" text-anchor="middle">0</text>
+    <text x="25" y="5" text-anchor="middle">500</text>
+    <text x="50" y="5" text-anchor="middle">1000 mm</text>
+    <text x="0"  y="-1.5" text-anchor="start" font-size="2.8" font-weight="bold">1:20</text>
+  </g>
+
+  <!-- ====================== TITLE BLOCK (bottom-right) ====================== -->
+  <g transform="translate(189,375)" font-size="2.6" fill="#000">
+    <rect x="0" y="0" width="92" height="29" fill="none" stroke="#000" stroke-width="0.5"/>
+    <line x1="0" y1="9" x2="92" y2="9" stroke="#000" stroke-width="0.25"/>
+    <line x1="0" y1="16" x2="92" y2="16" stroke="#000" stroke-width="0.25"/>
+    <line x1="0" y1="22" x2="92" y2="22" stroke="#000" stroke-width="0.25"/>
+    <line x1="60" y1="16" x2="60" y2="29" stroke="#000" stroke-width="0.25"/>
+    <text x="3" y="6"  font-size="3.4" font-weight="bold">PLUG-IN PARASITE</text>
+    <text x="3" y="13.5">Boyuna Kesit A&#8211;A &#8212; A&#231;&#305;k konum (deployed)</text>
+    <text x="3" y="20">caglarcelik architects &#183; CCA</text>
+    <text x="3" y="26.5">&#214;l&#231;ek 1:20 (A3)</text>
+    <text x="62" y="20">2026-06-01</text>
+    <text x="62" y="26.5">Rev. B &#183; CCA</text>
+  </g>
+
+</svg>

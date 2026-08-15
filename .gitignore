@@ -1,0 +1,17 @@
+# local/session artifacts
+.claude/
+.mcp.json
+CLAUDE.md
+SESSION*.md
+PLAN-*.md
+*.3dmbak
+Thumbs.db
+.DS_Store
+
+# environments / secrets
+.env
+.env.*
+*.local.json
+
+# local preview tool output
+_readme-preview.html
